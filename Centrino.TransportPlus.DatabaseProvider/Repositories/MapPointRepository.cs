@@ -1,0 +1,10 @@
+﻿
+using Celtrino.TransportPlus.Domain.Entities;
+using Celtrino.TransportPlus.Domain.Interfaces.Repositories;
+
+namespace Centrino.TransportPlus.DatabaseProvider.Repositories
+{
+    public class MapPointRepository : RepositoryBase<MapPoint>, IMapPointRepository
+    {
+    }
+}

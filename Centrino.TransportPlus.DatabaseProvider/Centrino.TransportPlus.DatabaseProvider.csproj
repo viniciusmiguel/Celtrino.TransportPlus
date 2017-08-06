@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Celtrino.TransportPlus.CrossCutting\Celtrino.TransportPlus.CrossCutting.csproj" />
+    <ProjectReference Include="..\Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj" />
+  </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
@@ -12,7 +12,8 @@
     <UserSecretsId>aspnet-Celtrino.TransportPlus.Web-1dbf9f5e-7788-4268-86ac-706452456ffa</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="1.1.2" />
@@ -32,6 +33,12 @@
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.1" />
     <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.1" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Celtrino.TransportPlus.App\Celtrino.TransportPlus.App.csproj" />
+    <ProjectReference Include="..\Celtrino.TransportPlus.CrossCutting\Celtrino.TransportPlus.CrossCutting.csproj" />
+    <ProjectReference Include="..\Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj" />
+    <ProjectReference Include="..\Centrino.TransportPlus.DatabaseProvider\Centrino.TransportPlus.DatabaseProvider.csproj" />
   </ItemGroup>
 
 </Project>

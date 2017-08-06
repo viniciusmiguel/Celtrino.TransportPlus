@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +8,12 @@ using Microsoft.Extensions.Logging;
 using Celtrino.TransportPlus.Web.Data;
 using Celtrino.TransportPlus.Web.Models;
 using Celtrino.TransportPlus.Web.Services;
-
+using Celtrino.TransportPlus.Domain.Interfaces.Repositories;
+using Centrino.TransportPlus.DatabaseProvider.Repositories;
+using Celtrino.TransportPlus.Domain.Interfaces.Services;
+using Celtrino.TransportPlus.Domain.Services;
+using Celtrino.TransportPlus.App;
+using Celtrino.TransportPlus.App.Interfaces;
 namespace Celtrino.TransportPlus.Web
 {
     public class Startup
@@ -52,6 +53,23 @@ namespace Celtrino.TransportPlus.Web
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+
+            //application dependency injection
+            services.AddTransient<IMapPointRepository, MapPointRepository>();
+            services.AddTransient<IVehicleManufacturerRepository, VehicleManufacturerRepository>();
+            services.AddTransient<IVehicleModelRepository, VehicleModelRepository>();
+            services.AddTransient<IVehicleRepository, VehicleRepository>();
+
+            services.AddTransient<IMapPointService, MapPointService>();
+            services.AddTransient<IVehicleManufacturerService, VehicleManufacturerService>();
+            services.AddTransient<IVehicleModelService, VehicleModelService>();
+            services.AddTransient<IVehicleService, VehicleService>();
+
+            services.AddTransient<IMapPointAppService, MapPointAppService>();
+            services.AddTransient<IVehicleManufacturerAppService, VehicleManufacturerAppService>();
+            services.AddTransient<IVehicleModelAppService, VehicleModelAppService>();
+            services.AddTransient<IVehicleAppService, VehicleAppService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
