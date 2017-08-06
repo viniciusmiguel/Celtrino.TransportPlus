@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{2BBFBEF4-6A15-48C3-BEBA-9938AF7CFCC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{33FFCA26-2FCF-44C2-B7E9-E70CB0949C35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{475A97A7-3A39-424E-8FC3-4C22CDA4C62E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrasctructure", "3 - Infrasctructure", "{38095A8C-DF7F-4107-9EE5-C88B4EF97A68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Data Provider", "3.0 - Data Provider", "{F259DADF-5AA7-471B-94D6-E004B83633F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Cross Cutting", "3.1 - Cross Cutting", "{3F0B7277-2412-41C7-9A33-07F198F204F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Domain", "Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj", "{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.App", "Celtrino.TransportPlus.App\Celtrino.TransportPlus.App.csproj", "{9D1E8D39-7ED0-4377-903C-5A71E3F7251C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrino.TransportPlus.DatabaseProvider", "Centrino.TransportPlus.DatabaseProvider\Centrino.TransportPlus.DatabaseProvider.csproj", "{4A990931-DF89-4BAD-943B-E41CFAD14123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.CrossCutting", "Celtrino.TransportPlus.CrossCutting\Celtrino.TransportPlus.CrossCutting.csproj", "{34B24ED1-015C-420F-992A-3E0AB5DD72E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Web", "Celtrino.TransportPlus.Web\Celtrino.TransportPlus.Web.csproj", "{76FA6182-06DD-4AE0-9F58-E332C9D96F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.API", "Celtrino.TransportPlus.API\Celtrino.TransportPlus.API.csproj", "{DC69451D-82AF-4DA6-884A-088C4BEB54BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1E8D39-7ED0-4377-903C-5A71E3F7251C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1E8D39-7ED0-4377-903C-5A71E3F7251C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1E8D39-7ED0-4377-903C-5A71E3F7251C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1E8D39-7ED0-4377-903C-5A71E3F7251C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A990931-DF89-4BAD-943B-E41CFAD14123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A990931-DF89-4BAD-943B-E41CFAD14123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A990931-DF89-4BAD-943B-E41CFAD14123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A990931-DF89-4BAD-943B-E41CFAD14123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B24ED1-015C-420F-992A-3E0AB5DD72E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B24ED1-015C-420F-992A-3E0AB5DD72E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B24ED1-015C-420F-992A-3E0AB5DD72E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B24ED1-015C-420F-992A-3E0AB5DD72E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC69451D-82AF-4DA6-884A-088C4BEB54BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC69451D-82AF-4DA6-884A-088C4BEB54BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC69451D-82AF-4DA6-884A-088C4BEB54BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC69451D-82AF-4DA6-884A-088C4BEB54BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F259DADF-5AA7-471B-94D6-E004B83633F7} = {38095A8C-DF7F-4107-9EE5-C88B4EF97A68}
+		{3F0B7277-2412-41C7-9A33-07F198F204F1} = {38095A8C-DF7F-4107-9EE5-C88B4EF97A68}
+		{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC} = {475A97A7-3A39-424E-8FC3-4C22CDA4C62E}
+		{9D1E8D39-7ED0-4377-903C-5A71E3F7251C} = {33FFCA26-2FCF-44C2-B7E9-E70CB0949C35}
+		{4A990931-DF89-4BAD-943B-E41CFAD14123} = {F259DADF-5AA7-471B-94D6-E004B83633F7}
+		{34B24ED1-015C-420F-992A-3E0AB5DD72E2} = {3F0B7277-2412-41C7-9A33-07F198F204F1}
+		{76FA6182-06DD-4AE0-9F58-E332C9D96F64} = {2BBFBEF4-6A15-48C3-BEBA-9938AF7CFCC6}
+		{DC69451D-82AF-4DA6-884A-088C4BEB54BA} = {2BBFBEF4-6A15-48C3-BEBA-9938AF7CFCC6}
+	EndGlobalSection
+EndGlobal
