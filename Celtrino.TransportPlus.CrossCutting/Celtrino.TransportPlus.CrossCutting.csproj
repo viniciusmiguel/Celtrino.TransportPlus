@@ -8,4 +8,8 @@
     <Folder Include="Identity\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

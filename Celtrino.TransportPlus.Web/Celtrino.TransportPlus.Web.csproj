@@ -40,5 +40,10 @@
     <ProjectReference Include="..\Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj" />
     <ProjectReference Include="..\Centrino.TransportPlus.DatabaseProvider\Centrino.TransportPlus.DatabaseProvider.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\VehicleModel\" />
+    <Folder Include="Views\VehicleManufacturer\" />
+    <Folder Include="Views\Vehicle\" />
+  </ItemGroup>
 
 </Project>

@@ -15,17 +15,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Data Provider", "3.0 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Cross Cutting", "3.1 - Cross Cutting", "{3F0B7277-2412-41C7-9A33-07F198F204F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Domain", "Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj", "{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celtrino.TransportPlus.Domain", "Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj", "{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.App", "Celtrino.TransportPlus.App\Celtrino.TransportPlus.App.csproj", "{9D1E8D39-7ED0-4377-903C-5A71E3F7251C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celtrino.TransportPlus.App", "Celtrino.TransportPlus.App\Celtrino.TransportPlus.App.csproj", "{9D1E8D39-7ED0-4377-903C-5A71E3F7251C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.CrossCutting", "Celtrino.TransportPlus.CrossCutting\Celtrino.TransportPlus.CrossCutting.csproj", "{34B24ED1-015C-420F-992A-3E0AB5DD72E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celtrino.TransportPlus.CrossCutting", "Celtrino.TransportPlus.CrossCutting\Celtrino.TransportPlus.CrossCutting.csproj", "{34B24ED1-015C-420F-992A-3E0AB5DD72E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Web", "Celtrino.TransportPlus.Web\Celtrino.TransportPlus.Web.csproj", "{76FA6182-06DD-4AE0-9F58-E332C9D96F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celtrino.TransportPlus.API", "Celtrino.TransportPlus.API\Celtrino.TransportPlus.API.csproj", "{DC69451D-82AF-4DA6-884A-088C4BEB54BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.API", "Celtrino.TransportPlus.API\Celtrino.TransportPlus.API.csproj", "{DC69451D-82AF-4DA6-884A-088C4BEB54BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrino.TransportPlus.DatabaseProvider", "Centrino.TransportPlus.DatabaseProvider\Centrino.TransportPlus.DatabaseProvider.csproj", "{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centrino.TransportPlus.DatabaseProvider", "Centrino.TransportPlus.DatabaseProvider\Centrino.TransportPlus.DatabaseProvider.csproj", "{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Angular", "Celtrino.Angular\Celtrino.TransportPlus.Angular.csproj", "{9A225F40-09E0-448D-871C-15217A7D31F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Auth", "Celtrino.TransportPlus.Auth\Celtrino.TransportPlus.Auth.csproj", "{FBFE7207-A424-4AC2-9E4E-07C033DC2830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Daemon", "Celtrino.TransportPlus.Daemon\Celtrino.TransportPlus.Daemon.csproj", "{16921C53-2A5B-42AF-AEF4-4294E42FBD51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{846F5BE5-3703-44DC-A60D-8B71618126F9}"
+	ProjectSection(SolutionItems) = preProject
+		Celtrino for Transport Plus.pdf = Celtrino for Transport Plus.pdf
+		README.txt = README.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +55,6 @@ Global
 		{34B24ED1-015C-420F-992A-3E0AB5DD72E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B24ED1-015C-420F-992A-3E0AB5DD72E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B24ED1-015C-420F-992A-3E0AB5DD72E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76FA6182-06DD-4AE0-9F58-E332C9D96F64}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC69451D-82AF-4DA6-884A-088C4BEB54BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC69451D-82AF-4DA6-884A-088C4BEB54BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC69451D-82AF-4DA6-884A-088C4BEB54BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +63,18 @@ Global
 		{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A225F40-09E0-448D-871C-15217A7D31F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A225F40-09E0-448D-871C-15217A7D31F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A225F40-09E0-448D-871C-15217A7D31F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A225F40-09E0-448D-871C-15217A7D31F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFE7207-A424-4AC2-9E4E-07C033DC2830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFE7207-A424-4AC2-9E4E-07C033DC2830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFE7207-A424-4AC2-9E4E-07C033DC2830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFE7207-A424-4AC2-9E4E-07C033DC2830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16921C53-2A5B-42AF-AEF4-4294E42FBD51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16921C53-2A5B-42AF-AEF4-4294E42FBD51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16921C53-2A5B-42AF-AEF4-4294E42FBD51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16921C53-2A5B-42AF-AEF4-4294E42FBD51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,8 +85,10 @@ Global
 		{D24E9578-DAE0-4B52-857F-7BAA9A25F0DC} = {475A97A7-3A39-424E-8FC3-4C22CDA4C62E}
 		{9D1E8D39-7ED0-4377-903C-5A71E3F7251C} = {33FFCA26-2FCF-44C2-B7E9-E70CB0949C35}
 		{34B24ED1-015C-420F-992A-3E0AB5DD72E2} = {3F0B7277-2412-41C7-9A33-07F198F204F1}
-		{76FA6182-06DD-4AE0-9F58-E332C9D96F64} = {2BBFBEF4-6A15-48C3-BEBA-9938AF7CFCC6}
 		{DC69451D-82AF-4DA6-884A-088C4BEB54BA} = {2BBFBEF4-6A15-48C3-BEBA-9938AF7CFCC6}
 		{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E} = {F259DADF-5AA7-471B-94D6-E004B83633F7}
+		{9A225F40-09E0-448D-871C-15217A7D31F3} = {2BBFBEF4-6A15-48C3-BEBA-9938AF7CFCC6}
+		{FBFE7207-A424-4AC2-9E4E-07C033DC2830} = {2BBFBEF4-6A15-48C3-BEBA-9938AF7CFCC6}
+		{16921C53-2A5B-42AF-AEF4-4294E42FBD51} = {33FFCA26-2FCF-44C2-B7E9-E70CB0949C35}
 	EndGlobalSection
 EndGlobal
