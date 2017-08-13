@@ -11,5 +11,6 @@ namespace Celtrino.TransportPlus.Domain.Entities
         public Guid IdModel { get; set; }
         public VehicleModel Model { get; set; }
         public string Plate { get; set; }
+        public string SIMCardNumber { get; set; }
     }
 }

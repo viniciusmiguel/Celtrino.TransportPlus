@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celtrino.TransportPlus.Cros
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celtrino.TransportPlus.API", "Celtrino.TransportPlus.API\Celtrino.TransportPlus.API.csproj", "{DC69451D-82AF-4DA6-884A-088C4BEB54BA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centrino.TransportPlus.DatabaseProvider", "Centrino.TransportPlus.DatabaseProvider\Centrino.TransportPlus.DatabaseProvider.csproj", "{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celtrino.TransportPlus.DatabaseProvider", "Centrino.TransportPlus.DatabaseProvider\Celtrino.TransportPlus.DatabaseProvider.csproj", "{BA9A92B0-A5B9-4B09-92FD-7C5A4177C18E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celtrino.TransportPlus.Angular", "Celtrino.Angular\Celtrino.TransportPlus.Angular.csproj", "{9A225F40-09E0-448D-871C-15217A7D31F3}"
 EndProject

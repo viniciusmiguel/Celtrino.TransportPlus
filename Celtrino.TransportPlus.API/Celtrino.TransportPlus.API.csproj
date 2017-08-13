@@ -21,7 +21,7 @@
     <ProjectReference Include="..\Celtrino.TransportPlus.App\Celtrino.TransportPlus.App.csproj" />
     <ProjectReference Include="..\Celtrino.TransportPlus.CrossCutting\Celtrino.TransportPlus.CrossCutting.csproj" />
     <ProjectReference Include="..\Celtrino.TransportPlus.Domain\Celtrino.TransportPlus.Domain.csproj" />
-    <ProjectReference Include="..\Centrino.TransportPlus.DatabaseProvider\Centrino.TransportPlus.DatabaseProvider.csproj" />
+    <ProjectReference Include="..\Centrino.TransportPlus.DatabaseProvider\Celtrino.TransportPlus.DatabaseProvider.csproj" />
   </ItemGroup>
 
 </Project>
